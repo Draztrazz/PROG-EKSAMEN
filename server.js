@@ -1,1 +1,2 @@
-var A = "a"
+var A = "a" 
+var B = "b"
