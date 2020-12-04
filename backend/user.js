@@ -16,3 +16,7 @@ var christian = new User("Christian", "Bredgaard", "Male", "Chrille321", "gnarlo
 var oscar = new User("Oscar", "Pedersen", "Male", "Oscarraw", "oskay123", "Peder@hotmail.com", [peter], [christian], [peter])
 var emilie = new User("Emilie", "Lindgren", "Female", "Emilie123", "321eilimE", "Emilie@gmail.com", [christian], [], [christian])
 var laura = new User("Laura", "Laurasen", "Female", "Lauramus123", "Fido123", "Laurahund123@gmail.com", [peter], [], [laura])
+
+userlist = [peter, christian, oscar, emilie, laura]
+
+module.exports = userlist
