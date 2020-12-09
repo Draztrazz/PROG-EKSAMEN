@@ -6,6 +6,15 @@ Last name: <%=lname%>
 Gender: <%=gender%>
 <br>
 Age: <%=age%>
+<br>
+Liked: <%=liked%>
+<br>
+Disliked: <%=disliked%>
+<br>
+Matched: <%=matched%>
 </p>
 <form action="/logout?_method=DELETE" method="POST"><button type="submit">Log out</button></form>
+<form action="/delete" method="POST"><button type="submit">Delete profile</button></form>
+<a href="/updateprofile"><button>Update Profile</button></a>
+<br>
 <a href="/matches">Find Matches</a>
