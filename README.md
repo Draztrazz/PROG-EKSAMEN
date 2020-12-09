@@ -9,3 +9,6 @@ passport
  passport-local
 express-session 
 express-flash
+method-overwrite
+
+efter at have installeret alle moduler, starter man serveren ved at skrive npm run start
